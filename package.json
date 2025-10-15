@@ -1,0 +1,26 @@
+{
+  "name": "squido",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "bot.ts",
+  "scripts": {
+    "start": "tsx bot.ts",
+    "dev": "tsx watch bot.ts",
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@solana/web3.js": "^1.98.4",
+    "@sqds/multisig": "^2.1.4",
+    "grammy": "^1.38.3"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.0",
+    "tsx": "^4.7.0",
+    "typescript": "^5.3.3"
+  }
+}
